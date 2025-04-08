@@ -29,6 +29,8 @@ services:
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
 
+      - ../themes/MapasRR:/var/www/src/themes/MapasRR
+
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - JOBS_INTERVAL=10
